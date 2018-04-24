@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Main texture
-  m_Shader: {fileID: 4800000, guid: 4184b52517377c7478d6d61550fd974b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0d74da2f8a45cda47aca96a3f5f6c57c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -69,12 +69,14 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DarkestDot: 0.1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
+    - _MidDot: 0.3
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -86,3 +88,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightColor: {r: 0.8308824, g: 0.8308824, b: 0.8308824, a: 0}
+    - _ShadeColor: {r: 0.66176474, g: 0.6640974, b: 1, a: 0}
